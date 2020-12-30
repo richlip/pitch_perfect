@@ -3,11 +3,12 @@
 //  PitchPerfect
 //
 //  Created by Richard Lipski on 29.12.20.
+//  Copyright © 2020 Richard Lipski. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
+
     }
 
     // MARK: UISceneSession Lifecycle
