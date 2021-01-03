@@ -48,15 +48,33 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         print ("Started Recording")
     }
     
+    // Stop Recording Button Tapped
     @IBAction func stopRecording(_ sender: Any) {
-        recordButton.isEnabled = true
-        stopRecordingButton.isEnabled = false
-        recordingLabel.text = "Tap to Record"
-        print ("Stopped Recording")
+        configureUI(RecordingState.notRecording)
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
+        
     }
+    enum RecordingState {
+       case  recording
+      case notRecording
+    }
+
+    func  configureUI(_ recordingState: RecordingState) {
+         switch recordingState {
+               case .recording:
+          stopRecordingButton.isEnabled = true
+          recordButton.isEnabled = false
+            recordingLabel.text = "Recording your audio...."
+            
+               case .notRecording:
+         stopRecordingButton.isEnabled = false
+          recordButton.isEnabled = true
+         recordingLabel.text = "Tap to start recording"
+    }
+    }
+
 
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         if flag{performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)} else {
