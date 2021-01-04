@@ -29,4 +29,4 @@ The iOS Developer course covers:
 The App uses Autolayout, Buttons, Constraints, Viewcontroller, Delegation as well as Recording, Playback and Audio Effects. Realized with Xcode 12.3 
 
 ### Screenshots
-![Playback Screen]: https://github.com/richlip/pitch_perfect/blob/main/images/Playback%20Screen.png
+![Playback Screen](https://github.com/richlip/pitch_perfect/blob/main/images/Playback%20Screen.png)
