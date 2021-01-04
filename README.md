@@ -1,6 +1,6 @@
 # Pitch Perfect
 ### aka FunnyVoices
- A App which records and changes the voice
+ A App which records and changes the voice to let your recorded voice sounds like a Chipmunk etc..
 
 ### How to use
  1. Start the App
