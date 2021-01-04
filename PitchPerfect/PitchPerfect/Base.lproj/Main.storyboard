@@ -182,7 +182,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NUS-EP-uNe"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.99953407049999998" green="0.91488784829553238" blue="0.79119982794990118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="N71-sh-U7C" firstAttribute="leading" secondItem="NUS-EP-uNe" secondAttribute="leading" constant="16" id="OOD-Mo-5fo"/>
                             <constraint firstItem="NUS-EP-uNe" firstAttribute="bottom" secondItem="g3c-vD-cGT" secondAttribute="bottom" constant="18" id="eRP-e7-pXF"/>
