@@ -1,2 +1,3 @@
-Alt-H1 Pitch Perfect
+# Pitch Perfect
+### aka FunnyVoices
  A App which records and change the voice
